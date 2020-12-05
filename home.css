@@ -1,0 +1,128 @@
+* {
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+#clgname {
+    margin-top: 0px;
+    background-color:black;
+    color:white;
+}
+.menu-bar{
+    background-color:grey;
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color:white;
+}
+.menu-bar ul li{
+    width:150px;
+    margin:15px;
+    padding:15px;
+}
+.menu-bar ul li a{
+    text-decoration:none ;
+    color:white;
+}
+ .menu-bar ul li:hover {
+    background: cadetblue;
+    border:3px;
+}
+.menu-bar .fa{
+    margin-right: 8px;
+}
+.sub-menu{
+    display:none;
+}
+
+.menu-bar ul li:hover .sub-menu{
+
+    display:block;
+    position: absolute;
+    background-color:grey;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu ul {
+    display: block;
+    margin:30px;    
+}
+
+.menu-bar ul li:hover .sub-menu ul li{
+    width:300px;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    border-radius: 0px;
+    background: transparent;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu ul li a:hover {
+    color:blue;
+}
+
+footer{
+    background: black;
+    height:auto;
+    width:100vw;
+    padding-top:40px;
+    color:white;
+}
+.footer-content{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    }
+
+.socials li
+{
+    margin:15px;
+}
+
+
+.socials a {
+    text-decoration: none;
+    color:white;
+
+}
+
+.slider {
+    width:900px;
+    height:400px;
+    background: url(https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+    margin-left:150px;
+    animation: slide 20s infinite;
+    margin-top: 15px;
+}
+
+@keyframes slide{
+  
+    50%{background:url(https://images.collegexpress.com/article/ultimate-guide-to-college-search.jpg)}
+   
+    100%{background:url(https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80)}
+}
+
+#welcome{
+    text-align: center;
+}
+.about{
+    padding:20px;
+    margin:20px;
+}
+
+
