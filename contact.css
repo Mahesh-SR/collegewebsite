@@ -1,0 +1,41 @@
+body{
+    margin:0px ;
+    padding:0px;
+    color:grey;
+}
+
+#csform{
+    text-align: center;
+    padding:30px;
+    margin-top:50px;
+    width:500px;
+
+}
+h2{
+    font-size: 32px;
+    border:1px solid;
+    background-color: orange;
+    color:black;
+}
+#btn{
+    font-size: 20px;
+    width:420px;
+    background-color: rgb(72, 247, 66);
+   }
+
+#csform input,textarea{
+    width:430px;
+    margin:10px;
+    border: none;
+    outline: none;
+    border-bottom:1px solid black;
+    background-origin: padding-box;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#map1{
+    margin-right: 0px;
+    margin-top: 0px;
+    box-sizing: 100px;
+}
